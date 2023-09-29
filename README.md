@@ -1,2 +1,2 @@
 # aulacss3
-Este repositório para subir meus códigos nesta plataforma
+Repositório para subir meus códigos nesta plataforma
