@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik:wght@300&display=swap');
+
+/* esta estilização pertence ao paragrafo cor bisque*/
+
+*{
+    font-family: 'rubik', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: antiquewhite;
+    }
+    :root{
+        --background-clean: rgba(197, 172, 141, 0.733);
+        --cor-da-empresa: rgb(107, 84, 14);
+    }
+/*estilização do header-Nav*/
+.cabecalho{
+    list-style: none;
+    width: 100%
+     rgba(150, 92, 5, 0.767);
+    }
+
+    /* imagem home */
+/*teste */
+.rodape-prin
+{
+    background-color:  rgb(165, 87, 42);       
+    clear: both;
+    padding: 28px;         
+    color: black;
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+}
+
+.icones-sociais li
+{
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+/*teste*/
+
+/* estilização cardapio*/
+.cardapio{
+    display: flex;
+    justify-content:flex-start ;
+}
+.cardapio img,
+.cardapio div{
+    padding: 10px;
+}
+/* estilização input pedido */
+section#input{
+    display: flex;
+    padding-top: 5rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+/* Estilização formulário Contato */
+
+.menu .ul-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ul-menu li{
+    list-style: none;
+    padding: 2rem;
+    color:rgba(150, 92, 5, 0.767);
+}
+/* estilização da mensagem */
+section#mensagem-inicial{
+    padding: 1rem;
+    background-color: var
+    (--background-clean);
+    
+}
+#nome-empresa{
+font-style: bold;
+font-size: 50px;
+margin-bottom: 5rem;
+color: var(--cor-da-empresa);
+}
+.mensagem{
+    color: rgba(177, 95, 18, 0.815);
+    font-size: 25px ;
+}
+
+/* estilização do footer */
+.footer{
+    background-color: var
+    (--background-clean);
+    margin-top: 5rem;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    /* usando media queries para transformar nossa page acessivel a tela menores */
+    
+    @media screen and (max-width: 480px){
+        body {
+            width: 100%;
+        }
+        header{
+            display: flex;
+        }
+    }
+        
+    
